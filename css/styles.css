@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   font-style: normal;
   font-size: 16px;
@@ -8,6 +8,18 @@ body {
   letter-spacing: 2%;
   color: #434455;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -16,7 +28,7 @@ body {
   margin-right: auto;
 }
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -70,7 +82,7 @@ body {
 }
 
 .btn {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -187,7 +199,7 @@ footer {
 }
 
 footer .logo-ftr {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
