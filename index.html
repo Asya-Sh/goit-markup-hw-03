@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,18 +19,17 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+  <!-- #region Header -->
   <body>
     <header class="header">
       <div class="header-container container">
         <nav class="header-nav">
-          <a class="header-logo" href="./index.html" class="logo"
-            >Web<span class="accent">Studio</span>
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-accent">Studio</span>
           </a>
           <ul class="header-links">
             <li><a class="header-link" href="./index.html">Studio</a></li>
@@ -54,15 +53,17 @@
         </address>
       </div>
     </header>
-
+    <!-- #endregion Header -->
     <main>
+      <!--#region Tagline -->
       <section class="tagline-title">
         <div class="container">
           <h1 class="tagline">Effective Solutions for Your Business</h1>
           <button class="btn" type="button">Order Service</button>
         </div>
       </section>
-
+      <!-- #endregion Tagline -->
+      <!-- #region Anvantages -->
       <section class="advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -98,7 +99,8 @@
           </ul>
         </div>
       </section>
-
+      <!--  #endregion Anvantages -->
+      <!-- #region Team -->
       <section class="team">
         <div class="container">
           <h2 class="our-team">Our Team</h2>
@@ -153,7 +155,8 @@
           </ul>
         </div>
       </section>
-
+      <!-- #endregion Team -->
+      <!-- #region Portfolio -->
       <section class="portfolio">
         <div class="container">
           <h2 class="title-portfolio">Our Portfolio</h2>
@@ -223,8 +226,9 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion Portfolio -->
     </main>
-
+    <!-- #region Footer -->
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo-ftr"
@@ -236,5 +240,6 @@
         </p>
       </div>
     </footer>
+    <!-- #endregion Footer -->
   </body>
 </html>
