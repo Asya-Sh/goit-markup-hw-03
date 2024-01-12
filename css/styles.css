@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -21,8 +21,7 @@ p {
   padding: 0;
 }
 
-ul,
-li {
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -48,13 +47,13 @@ img {
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  text-decoration: none;
 }
 
 .logo-accent {
@@ -83,11 +82,12 @@ img {
 .header-link {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.04em;
+  line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
+  text-decoration: none;
 }
 
 .header-link:hover,
@@ -95,13 +95,18 @@ img {
   color: #404bbf;
 }
 
-.contacts {
+.contacts-link {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
+  text-decoration: none;
+}
+
+.contacts {
+  margin-left: 332px;
 }
 
 .contacts-list {
@@ -109,18 +114,19 @@ img {
   gap: 40px;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 /* #endregion Header  */
 
 /* #region Tagline */
 .tagline-title {
-  text-align: center;
+  /* text-align: center; */
   color: #ffffff;
   background-color: #2e2f42;
   padding: 188px 0;
+  align-items: center;
 }
 
 .tagline {
@@ -128,16 +134,16 @@ img {
   letter-spacing: 0.02em;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 2%;
   max-width: 496px;
+  margin-bottom: 48px;
+  text-align: center;
 }
 
 .btn {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -216,7 +222,6 @@ img {
 .our-team {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   line-height: 1.11;
@@ -257,7 +262,6 @@ img {
 /* #region Portfolio */
 
 .portfolio {
-  text-align: center;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -276,19 +280,19 @@ img {
 .title-portfolio {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   line-height: 1.11;
   color: #2e2f42;
   margin-bottom: 72px;
+  text-align: center;
 }
 
 .portfolio-div {
-  padding: 32px 16px;
+  padding: 48px 24px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+  text-align: left;
 }
 
 .portfolio-name {
@@ -297,9 +301,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .portfolio-work {
@@ -320,15 +323,14 @@ footer {
 footer .logo-ftr {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  line-height: 1.17;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
+  text-decoration: none;
 }
 footer .logo-accent {
   color: #f4f4fd;
@@ -337,5 +339,6 @@ footer .logo-accent {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 /* #endregion Footer */
